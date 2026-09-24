@@ -1,0 +1,3382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Discover mindful safari adventures with Nada Afrika Safaris. Explore Africa's wonders through game drives, cultural encounters, and luxury getaways.">
+<meta name="keywords" content="safari, Africa, travel, adventure, Nada Afrika Safaris, game drives, cultural tours, luxury safaris">
+<meta name="author" content="Nada Afrika Safaris">
+<title>NADA AFRIKA SAFARIS | Mindful Safari Adventures</title>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="google-site-verification" content="E3R0jvIGbImM3GfOXNLnB0NOU9LcGyeZjp4SJL4-YCQ" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "TravelAgency",
+"name": "Nada Afrika Safaris",
+"description": "Mindful safari adventures across Africa. Game drives, cultural encounters, luxury getaways.",
+"url": "logo.jpeg",
+"logo": "https://nadaafrikasafaris.com/logo.jpeg",
+"contactPoint": {
+"@type": "ContactPoint",
+"telephone": "+254-700-442-881",
+"contactType": "customer service"
+},
+"address": {
+"@type": "PostalAddress",
+"addressCountry": "Kenya"
+}
+}
+</script>
+<style>
+/* ===== VARIABLES ===== */
+:root {
+--primary-color: #3685fb;
+--primary-dark: #2f73d9;
+--secondary-color: #fafcff;
+--text-dark: #0d213f;
+--text-light: #767268;
+--extra-light: #ffffff;
+--shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+--transition: all 0.3s ease;
+--max-width: 1200px;
+--gold: #d4a843;
+--safari-green: #2d5a27;
+--safari-brown: #8B6B4A;
+}
+/* ===== BASE STYLES ===== */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html {
+scroll-behavior: smooth;
+}
+body {
+font-family: 'Poppins', sans-serif;
+line-height: 1.6;
+color: var(--text-dark);
+background-color: var(--extra-light);
+overflow-x: hidden;
+position: relative;
+}
+body::before {
+content: '';
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('background.jpeg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+filter: blur(1px) brightness(0.85);
+z-index: -1;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
+img {
+max-width: 100%;
+display: block;
+}
+ul {
+list-style: none;
+}
+.container {
+max-width: var(--max-width);
+margin: 0 auto;
+padding: 0 1rem;
+}
+.section {
+padding: 5rem 0;
+}
+.section-header {
+text-align: center;
+margin-bottom: 3rem;
+}
+.section-title {
+font-size: 2.5rem;
+font-weight: 700;
+margin-bottom: 1rem;
+color: var(--text-dark);
+}
+.section-title span {
+color: var(--gold);
+}
+.section-subtitle {
+font-size: 1.1rem;
+color: var(--text-light);
+max-width: 600px;
+margin: 0 auto;
+}
+.btn {
+display: inline-block;
+padding: 0.75rem 2rem;
+background-color: var(--primary-color);
+color: var(--extra-light);
+border: none;
+border-radius: 5rem;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+transition: var(--transition);
+}
+.btn:hover {
+background-color: var(--primary-dark);
+transform: translateY(-3px);
+box-shadow: var(--shadow);
+}
+.btn-outline {
+background-color: transparent;
+border: 2px solid var(--primary-color);
+color: var(--primary-color);
+}
+.btn-outline:hover {
+background-color: var(--primary-color);
+color: var(--extra-light);
+}
+.btn-gold {
+background-color: var(--gold);
+}
+.btn-gold:hover {
+background-color: #b8922f;
+}
+.card {
+background: var(--extra-light);
+border-radius: 1rem;
+overflow: hidden;
+box-shadow: var(--shadow);
+transition: var(--transition);
+}
+.card:hover {
+transform: translateY(-5px);
+}
+
+/* ===== COVERFLOW CAROUSEL STYLES ===== */
+.coverflow-section {
+  position: relative;
+  width: 100%;
+  min-height: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 48px 0;
+  user-select: none;
+  background-color: #0c0a09;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.coverflow-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coverflow-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.eyebrow-line {
+  width: 36px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #c5a880);
+}
+.eyebrow-line:last-child {
+  background: linear-gradient(90deg, #c5a880, transparent);
+}
+.eyebrow-text {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #c5a880;
+  margin: 0;
+}
+.coverflow-stage {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  perspective: 1400px;
+}
+.coverflow-item {
+  position: absolute;
+  width: 330px;
+  height: 500px;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #171311;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transform-origin: center center;
+  transition: all 800ms cubic-bezier(0.25, 1, 0.5, 1);
+  cursor: pointer;
+}
+.coverflow-item img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coverflow-vignette {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 25%, rgba(0,0,0,0.68) 60%, rgba(0,0,0,0.96) 100%);
+  pointer-events: none;
+  z-index: 10;
+}
+.coverflow-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px 18px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 20;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 500ms ease, transform 500ms ease;
+  pointer-events: none;
+}
+.coverflow-item.active .coverflow-content {
+  opacity: 1;
+  transform: translateY(0px);
+  pointer-events: auto;
+}
+.coverflow-tag {
+  text-align: right;
+  width: 100%;
+  padding-right: 4px;
+}
+.coverflow-tag span {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+}
+.coverflow-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  margin-top: auto;
+  padding-bottom: 4px;
+}
+.coverflow-title1 {
+  font-size: 1.65rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.1;
+  text-shadow: 0 3px 12px rgba(0,0,0,0.95);
+}
+.coverflow-title2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #f3f0ea;
+  line-height: 1.2;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.9);
+}
+.coverflow-divider {
+  width: 34px;
+  height: 2px;
+  background-color: #c5a880;
+  border-radius: 2px;
+  margin: 5px auto 4px;
+  box-shadow: 0 0 8px rgba(197,168,128,0.7);
+}
+.coverflow-desc {
+  font-size: 0.82rem;
+  font-style: italic;
+  color: rgba(255,255,255,0.9);
+  max-width: 280px;
+  margin: 0 0 10px;
+  line-height: 1.3;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.9);
+}
+.coverflow-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 18px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #c5a880 0%, #a48256 100%);
+  color: #110d0c;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.4), 0 0 15px rgba(197,168,128,0.3);
+  cursor: pointer;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.coverflow-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5), 0 0 20px rgba(197,168,128,0.4);
+}
+.coverflow-cta svg {
+  width: 13px;
+  height: 13px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+}
+
+/* Coverflow States */
+.coverflow-item.center {
+  transform: translateX(0px) scale(1) rotateY(0deg);
+  opacity: 1;
+  z-index: 30;
+  filter: brightness(1);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.9), 0 0 35px rgba(197,168,128,0.25);
+  cursor: default;
+}
+.coverflow-item.right-1 {
+  transform: translateX(285px) scale(0.84) rotateY(-24deg);
+  opacity: 0.65;
+  z-index: 20;
+  filter: brightness(0.75);
+}
+.coverflow-item.right-2 {
+  transform: translateX(510px) scale(0.68) rotateY(-38deg);
+  opacity: 0.38;
+  z-index: 10;
+  filter: brightness(0.55) blur(1px);
+}
+.coverflow-item.left-1 {
+  transform: translateX(-285px) scale(0.84) rotateY(24deg);
+  opacity: 0.65;
+  z-index: 20;
+  filter: brightness(0.75);
+}
+.coverflow-item.left-2 {
+  transform: translateX(-510px) scale(0.68) rotateY(38deg);
+  opacity: 0.38;
+  z-index: 10;
+  filter: brightness(0.55) blur(1px);
+}
+.coverflow-item.hidden {
+  transform: translateX(0px) scale(0.4) rotateY(0deg);
+  opacity: 0;
+  z-index: 0;
+  filter: brightness(0.4) blur(2px);
+  pointer-events: none;
+}
+
+/* Coverflow Nav */
+.coverflow-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  z-index: 40;
+  transition: all 200ms ease;
+}
+.coverflow-nav:hover {
+  background-color: rgba(0,0,0,0.75);
+  border-color: rgba(255,255,255,0.4);
+}
+.coverflow-nav svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+}
+.coverflow-prev { left: 24px; }
+.coverflow-next { right: 24px; }
+
+/* Coverflow Dots */
+.coverflow-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  z-index: 30;
+}
+.coverflow-dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 9999px;
+  background-color: rgba(255,255,255,0.25);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.coverflow-dot.active {
+  width: 28px;
+  background-color: #c5a880;
+  box-shadow: 0 0 10px rgba(197,168,128,0.7);
+}
+
+/* Coverflow Background */
+.coverflow-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+.coverflow-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.22) blur(32px);
+  transform: scale(1.15);
+  transition: opacity 1000ms ease, filter 1000ms ease;
+}
+.coverflow-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(12,10,9,0.3) 0%, rgba(12,10,9,0.92) 100%);
+}
+
+/* ===== HEADER & NAVIGATION ===== */
+header {
+background-color: var(--secondary-color);
+position: relative;
+padding-top: 5rem;
+}
+nav {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: linear-gradient(to bottom, #ffd700, #ffa500);
+backdrop-filter: blur(10px);
+z-index: 1000;
+padding: 1rem 0;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.nav-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+}
+.logo {
+font-size: 1.5rem;
+font-weight: 700;
+color: var(--text-dark);
+z-index: 1001;
+}
+.logo span {
+color: var(--gold);
+}
+.nav-links {
+display: flex;
+gap: 1rem;
+transition: var(--transition);
+}
+.nav-link {
+font-weight: 510;
+transition: var(--transition);
+position: relative;
+padding: 0.5rem 1rem;
+}
+.nav-link:hover {
+color: var(--primary-color);
+}
+.nav-link.active {
+color: var(--primary-color);
+}
+.nav-link.active::after {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 100%;
+height: 2px;
+background-color: var(--primary-color);
+}
+.nav-actions {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.search-container {
+position: relative;
+}
+.search-input {
+padding: 0.5rem 1rem;
+border: 2px solid rgba(255, 255, 255, 0.2);
+border-radius: 2rem;
+background: rgba(255, 255, 255, 0.1);
+color: var(--extra-light);
+font-size: 0.9rem;
+width: 200px;
+transition: var(--transition);
+}
+.search-input::placeholder {
+color: rgba(255, 255, 255, 0.7);
+}
+.search-input:focus {
+outline: none;
+border-color: var(--extra-light);
+background: rgba(255, 255, 255, 0.2);
+width: 250px;
+}
+.search-results {
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+background: var(--extra-light);
+border-radius: 0.5rem;
+box-shadow: var(--shadow);
+margin-top: 0.5rem;
+display: none;
+z-index: 1000;
+max-height: 300px;
+overflow-y: auto;
+}
+.search-results.active {
+display: block;
+}
+.search-result-item {
+padding: 0.75rem 1rem;
+border-bottom: 1px solid #eee;
+cursor: pointer;
+transition: var(--transition);
+}
+.search-result-item:hover {
+background: var(--secondary-color);
+}
+.search-result-item:last-child {
+border-bottom: none;
+}
+.search-result-item .price {
+color: var(--primary-color);
+font-weight: 600;
+font-size: 0.9rem;
+}
+.search-result-item .type {
+font-size: 0.8rem;
+color: var(--text-light);
+background: #f0f0f0;
+padding: 0.2rem 0.5rem;
+border-radius: 0.25rem;
+margin-left: 0.5rem;
+}
+.mobile-menu-btn {
+display: none;
+background: none;
+border: none;
+font-size: 1.5rem;
+cursor: pointer;
+color: var(--text-dark);
+z-index: 1001;
+}
+/* ===== HERO SECTION ===== */
+.hero {
+min-height: 80vh;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 3rem;
+align-items: center;
+}
+.hero-content {
+max-width: 500px;
+}
+.hero-subtitle {
+color: var(--gold);
+font-weight: 600;
+margin-bottom: 0.5rem;
+display: block;
+font-size: 1.1rem;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.hero-title {
+font-size: 3.5rem;
+font-weight: 800;
+line-height: 1.2;
+margin-bottom: 1rem;
+color: var(--text-dark);
+}
+.hero-title span {
+color: var(--gold);
+}
+.hero-tagline {
+font-size: 1.2rem;
+font-weight: 500;
+color: var(--safari-brown);
+margin-bottom: 1.5rem;
+font-style: italic;
+}
+.hero-description {
+color: var(--text-light);
+margin-bottom: 2rem;
+font-size: 1.05rem;
+line-height: 1.7;
+}
+.hero-actions {
+display: flex;
+gap: 1.5rem;
+align-items: center;
+flex-wrap: wrap;
+}
+.hero-image {
+position: relative;
+height: 500px;
+}
+.hero-img {
+position: absolute;
+border-radius: 2rem;
+box-shadow: var(--shadow);
+border: 0.5rem solid var(--extra-light);
+}
+.hero-img-1 {
+width: 70%;
+top: 0;
+left: 0;
+z-index: 2;
+}
+.hero-img-2 {
+width: 50%;
+bottom: 0;
+right: 0;
+z-index: 1;
+}
+.video-story {
+display: flex;
+align-items: center;
+gap: 1rem;
+cursor: pointer;
+}
+.video-thumb {
+position: relative;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+overflow: hidden;
+}
+.video-thumb img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.play-btn {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 40px;
+height: 40px;
+background: var(--extra-light);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--primary-color);
+box-shadow: var(--shadow);
+}
+/* ===== VIDEO MODAL ===== */
+.video-modal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.9);
+z-index: 1000;
+align-items: center;
+justify-content: center;
+}
+.video-modal.active {
+display: flex;
+}
+.video-modal-content {
+position: relative;
+width: 90%;
+max-width: 800px;
+aspect-ratio: 16 / 9;
+background: #000;
+border-radius: 10px;
+overflow: hidden;
+}
+.video-modal video {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+.video-modal-close {
+position: absolute;
+top: 15px;
+right: 15px;
+width: 40px;
+height: 40px;
+background: rgba(255, 255, 255, 0.2);
+border: none;
+color: white;
+font-size: 28px;
+cursor: pointer;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: var(--transition);
+z-index: 1001;
+}
+.video-modal-close:hover {
+background: rgba(255, 255, 255, 0.4);
+}
+/* ===== ABOUT SECTION ===== */
+.about {
+background-color: var(--secondary-color);
+}
+.about-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 4rem;
+align-items: center;
+}
+.about-image {
+position: relative;
+border-radius: 1rem;
+overflow: hidden;
+box-shadow: var(--shadow);
+}
+.about-image img {
+width: 100%;
+height: 450px;
+object-fit: cover;
+transition: var(--transition);
+}
+.about-image:hover img {
+transform: scale(1.02);
+}
+.about-content h3 {
+font-size: 2rem;
+margin-bottom: 1rem;
+color: var(--text-dark);
+}
+.about-content h3 span {
+color: var(--gold);
+}
+.about-content p {
+color: var(--text-light);
+margin-bottom: 1.2rem;
+line-height: 1.8;
+}
+.about-content .highlight {
+font-weight: 600;
+color: var(--text-dark);
+}
+.about-values {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+gap: 1rem;
+margin-top: 1.5rem;
+}
+.value-badge {
+background: var(--extra-light);
+padding: 0.75rem 1rem;
+border-radius: 2rem;
+text-align: center;
+font-weight: 500;
+font-size: 0.9rem;
+box-shadow: var(--shadow);
+border-left: 3px solid var(--gold);
+transition: var(--transition);
+}
+.value-badge:hover {
+transform: translateY(-2px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.value-badge i {
+color: var(--gold);
+margin-right: 0.5rem;
+}
+/* ===== CUSTOMISED PACKAGES SECTION ===== */
+.packages-grid {
+display: grid;
+grid-template-columns: repeat(4, minmax(0, 1fr));
+gap: 1.5rem;
+align-items: stretch;
+}
+.package-card {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+.package-card .card-img {
+height: 210px;
+width: 100%;
+object-fit: cover;
+}
+.package-info {
+display: flex;
+flex: 1;
+flex-direction: column;
+gap: 0.75rem;
+padding: 1.25rem;
+}
+.package-title {
+font-size: 1.2rem;
+font-weight: 600;
+line-height: 1.35;
+min-height: 4.9rem;
+}
+.package-rating {
+color: #ffc107;
+}
+.package-price {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 1rem;
+margin-top: auto;
+}
+.package-price .btn {
+flex-shrink: 0;
+padding: 0.7rem 1.4rem;
+white-space: nowrap;
+}
+.price {
+font-weight: 600;
+color: var(--text-dark);
+}
+.price span {
+font-size: 0.9rem;
+font-weight: 400;
+color: var(--text-light);
+}
+.additional-packages {
+display: none;
+margin-top: 2rem;
+}
+.additional-packages.active {
+display: grid;
+grid-template-columns: repeat(4, minmax(0, 1fr));
+gap: 1.5rem;
+align-items: stretch;
+animation: fadeIn 0.5s ease;
+}
+@media (max-width: 1100px) {
+.packages-grid,
+.additional-packages.active {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.package-title {
+min-height: 3.3rem;
+}
+}
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+/* ===== SERVICES SECTION - FLIP CARD STYLES ===== */
+.services {
+background-color: var(--secondary-color);
+}
+.services-tabs {
+display: flex;
+justify-content: center;
+gap: 1rem;
+margin-bottom: 3rem;
+flex-wrap: wrap;
+}
+.service-tab {
+padding: 1rem 2rem;
+background: var(--extra-light);
+border: 2px solid transparent;
+border-radius: 5rem;
+cursor: pointer;
+font-weight: 600;
+transition: var(--transition);
+}
+.service-tab.active {
+background: var(--primary-color);
+color: var(--extra-light);
+border-color: var(--primary-color);
+}
+.service-tab:hover:not(.active) {
+border-color: var(--primary-color);
+}
+.service-content {
+display: none;
+}
+.service-content.active {
+display: block;
+animation: fadeIn 0.5s ease;
+}
+.services-flip-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 2rem;
+margin-bottom: 3rem;
+}
+.flip-card {
+width: 100%;
+max-width: 300px;
+height: 300px;
+perspective: 1000px;
+margin: 0 auto;
+}
+.flip-card-inner {
+width: 100%;
+height: 100%;
+position: relative;
+transform-style: preserve-3d;
+transition: transform 0.999s;
+}
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+border-radius: 10px;
+overflow: hidden;
+}
+.flip-card-front {
+background-color: #6A2C70;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 10px solid #6A2C70;
+transform: rotateY(0deg);
+}
+.flip-card-back {
+background-color: #F08A5D;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 10px solid #F08A5D;
+transform: rotateY(180deg);
+padding: 1rem;
+text-align: center;
+}
+.flip-card-img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.flip-card-title {
+font-size: 1.5rem;
+font-weight: 700;
+margin-bottom: 0.5rem;
+position: absolute;
+bottom: 10px;
+left: 0;
+right: 0;
+text-align: center;
+background: rgba(106, 44, 112, 0.8);
+padding: 0.5rem;
+}
+.flip-card-back h4 {
+font-size: 1.3rem;
+margin-bottom: 0.5rem;
+}
+.flip-card-back p {
+font-size: 0.9rem;
+margin-bottom: 0.4rem;
+}
+/* ===== BOOKINGS SECTION ===== */
+.bookings {
+background-color: var(--extra-light);
+}
+.bookings-container {
+max-width: 900px;
+margin: 0 auto;
+}
+.booking-card {
+background: var(--extra-light);
+padding: 1.5rem;
+border-radius: 1rem;
+box-shadow: var(--shadow);
+margin-bottom: 1.5rem;
+border-left: 5px solid var(--primary-color);
+transition: var(--transition);
+}
+.booking-card:hover {
+transform: translateY(-2px);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.booking-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1rem;
+flex-wrap: wrap;
+gap: 1rem;
+}
+.booking-title {
+font-size: 1.3rem;
+font-weight: 600;
+color: var(--text-dark);
+}
+.booking-status {
+padding: 0.4rem 1.2rem;
+border-radius: 2rem;
+font-size: 0.85rem;
+font-weight: 600;
+text-transform: uppercase;
+}
+.status-paid { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+.status-pending { background-color: #fff3cd; color: #856404; border: 1px solid #ffeaa7; }
+.status-confirmed { background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; }
+.status-cancelled { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+.booking-details {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 1rem;
+margin-top: 1rem;
+}
+.booking-detail {
+display: flex;
+flex-direction: column;
+gap: 0.25rem;
+}
+.booking-label {
+font-size: 0.85rem;
+color: var(--text-light);
+font-weight: 500;
+}
+.booking-value {
+font-size: 1rem;
+font-weight: 600;
+color: var(--text-dark);
+}
+.no-bookings {
+text-align: center;
+padding: 3rem;
+color: var(--text-light);
+}
+.no-bookings i {
+font-size: 4rem;
+color: var(--primary-color);
+margin-bottom: 1rem;
+opacity: 0.5;
+}
+/* ===== FAQ SECTION ===== */
+.faq {
+background-color: var(--secondary-color);
+padding: 3rem 0;
+}
+.faq-container {
+max-width: 600px;
+margin: 0 auto;
+}
+.faq-item {
+margin-bottom: 1rem;
+padding: 1rem;
+background: var(--extra-light);
+border-radius: 0.5rem;
+box-shadow: var(--shadow);
+transition: var(--transition);
+}
+.faq-item:hover {
+transform: translateY(-1px);
+}
+.faq-question {
+font-size: 1rem;
+font-weight: 600;
+margin-bottom: 0.25rem;
+color: var(--text-dark);
+}
+.faq-answer {
+color: var(--text-light);
+line-height: 1.4;
+font-size: 0.9rem;
+}
+/* ===== REVIEWS SECTION ===== */
+.reviews {
+background-color: var(--extra-light);
+}
+.reviews-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 2rem;
+}
+.review-card {
+background: var(--extra-light);
+padding: 2rem;
+border-radius: 1rem;
+box-shadow: var(--shadow);
+}
+.review-header {
+display: flex;
+align-items: center;
+margin-bottom: 1.5rem;
+}
+.review-avatar {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+margin-right: 1rem;
+object-fit: cover;
+}
+.review-info h4 {
+font-size: 1.1rem;
+margin-bottom: 0.25rem;
+}
+.review-rating {
+color: #ffc107;
+}
+.review-text {
+color: var(--text-light);
+font-style: italic;
+}
+/* ===== CONTACT SECTION ===== */
+.contact {
+background-color: var(--secondary-color);
+}
+.contact-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 3rem;
+}
+.contact-info {
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+.contact-item {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.contact-icon {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: var(--primary-color);
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--extra-light);
+font-size: 1.2rem;
+flex-shrink: 0;
+}
+.contact-details h4 {
+margin-bottom: 0.5rem;
+}
+.contact-details p {
+color: var(--text-light);
+}
+.contact-form {
+background: var(--extra-light);
+padding: 2rem;
+border-radius: 1rem;
+box-shadow: var(--shadow);
+}
+/* ===== SUBSCRIBE SECTION ===== */
+.subscribe-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 3rem;
+align-items: center;
+}
+.subscribe-form {
+display: flex;
+background: var(--extra-light);
+border-radius: 5rem;
+overflow: hidden;
+box-shadow: var(--shadow);
+}
+.subscribe-form input {
+flex: 1;
+padding: 1rem 1.5rem;
+border: none;
+outline: none;
+font-size: 1rem;
+}
+/* ===== FOOTER ===== */
+footer {
+background: linear-gradient(to bottom, #ffd700, #ffa500);
+color: var(--secondary-color);
+padding: 4rem 0 1rem;
+}
+.footer-container {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 3rem;
+}
+.footer-col h3 {
+font-size: 1.5rem;
+margin-bottom: 1.5rem;
+color: var(--text-dark);
+}
+.footer-col h3 span {
+color: var(--gold);
+}
+.footer-col p {
+margin-bottom: 1rem;
+cursor: pointer;
+transition: var(--transition);
+color: var(--text-dark);
+}
+.footer-col p:hover {
+color: var(--primary-color);
+}
+.footer-col h4 {
+margin-bottom: 1.5rem;
+font-size: 1.1rem;
+color: var(--text-dark);
+}
+.social-links {
+margin-top: 1.5rem;
+}
+.wrapper {
+display: inline-flex;
+list-style: none;
+height: auto;
+width: 100%;
+padding: 10px 0;
+font-family: "Poppins", sans-serif;
+justify-content: flex-start;
+flex-wrap: wrap;
+gap: 5px;
+}
+.wrapper .icon {
+position: relative;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+margin: 5px;
+width: 50px;
+height: 50px;
+font-size: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+cursor: pointer;
+transition: all 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip {
+position: absolute;
+top: 0;
+font-size: 14px;
+background: #fff;
+color: #333;
+padding: 5px 8px;
+border-radius: 5px;
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+opacity: 0;
+pointer-events: none;
+transition: all 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip::before {
+position: absolute;
+content: "";
+height: 8px;
+width: 8px;
+background: #fff;
+bottom: -3px;
+left: 50%;
+transform: translate(-50%) rotate(45deg);
+transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip {
+top: -35px;
+opacity: 1;
+visibility: visible;
+pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+background: #1877f2;
+color: #fff;
+}
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+background: #1da1f2;
+color: #fff;
+}
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+background: #e4405f;
+color: #fff;
+}
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+background: #0077b5;
+color: #fff;
+}
+.wrapper .tiktok:hover,
+.wrapper .tiktok:hover .tooltip,
+.wrapper .tiktok:hover .tooltip::before {
+background: #000000;
+color: #fff;
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+background: #ff0000;
+color: #fff;
+}
+.payment-info {
+background: rgba(255, 255, 255, 0.15);
+padding: 1.5rem;
+border-radius: 0.5rem;
+margin-top: 1rem;
+border-left: 4px solid var(--gold);
+}
+.payment-info h5 {
+font-size: 1rem;
+margin-bottom: 0.75rem;
+color: var(--text-dark);
+}
+.payment-info p {
+margin-bottom: 0.5rem;
+font-size: 0.9rem;
+display: flex;
+align-items: center;
+gap: 0.5rem;
+}
+.payment-info i {
+color: var(--gold);
+}
+.footer-bottom {
+text-align: center;
+margin-top: 3rem;
+padding-top: 1.5rem;
+border-top: 1px solid rgba(255, 255, 255, 0.1);
+font-size: 0.9rem;
+color: var(--text-dark);
+}
+/* ===== MODALS ===== */
+.modal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+z-index: 2000;
+align-items: center;
+justify-content: center;
+padding: 1rem;
+}
+.modal-content {
+background: var(--extra-light);
+border-radius: 1rem;
+max-width: 500px;
+width: 100%;
+max-height: 90vh;
+overflow-y: auto;
+position: relative;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.modal-header {
+padding: 1.5rem;
+border-bottom: 1px solid #eee;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.modal-title {
+font-size: 1.5rem;
+font-weight: 600;
+color: var(--text-dark);
+}
+.close-modal {
+background: none;
+border: none;
+font-size: 1.5rem;
+cursor: pointer;
+color: var(--text-light);
+transition: var(--transition);
+}
+.close-modal:hover {
+color: var(--text-dark);
+}
+.modal-body {
+padding: 1.5rem;
+}
+.payment-options {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+margin: 1.5rem 0;
+}
+.payment-option {
+border: 2px solid #eee;
+border-radius: 0.5rem;
+padding: 2rem;
+text-align: center;
+cursor: pointer;
+transition: var(--transition);
+width: 100%;
+max-width: 300px;
+background: #f8fbff;
+}
+.payment-option:hover {
+border-color: var(--primary-color);
+background: #f0f7ff;
+}
+.payment-option.active {
+border-color: #00A86B;
+background: #e8f7f0;
+}
+.payment-icon {
+font-size: 3rem;
+margin-bottom: 1rem;
+color: #00A86B;
+}
+.mpesa-details {
+background: #f8f9fa;
+border-radius: 0.5rem;
+padding: 1.5rem;
+margin: 1.5rem 0;
+border-left: 4px solid #00A86B;
+}
+.mpesa-details h4 {
+color: #00A86B;
+margin-bottom: 1rem;
+}
+.mpesa-details p {
+margin-bottom: 0.5rem;
+font-size: 0.9rem;
+}
+.mpesa-instructions {
+background: #fff3cd;
+border: 1px solid #ffeaa7;
+border-radius: 0.5rem;
+padding: 1rem;
+margin: 1.5rem 0;
+font-size: 0.9rem;
+}
+.payment-status {
+text-align: center;
+padding: 2rem;
+}
+.payment-status-icon {
+font-size: 4rem;
+margin-bottom: 1rem;
+}
+.payment-status.success { color: #28a745; }
+.payment-status.error { color: #dc3545; }
+.payment-status.pending { color: #ffc107; }
+.form-group {
+margin-bottom: 1.5rem;
+}
+.form-label {
+display: block;
+margin-bottom: 0.5rem;
+font-weight: 500;
+color: var(--text-dark);
+}
+.form-control {
+width: 100%;
+padding: 0.75rem 1rem;
+border: 1px solid #ddd;
+border-radius: 0.5rem;
+font-size: 1rem;
+transition: var(--transition);
+}
+.form-control:focus {
+border-color: var(--primary-color);
+outline: none;
+box-shadow: 0 0 0 3px rgba(54, 133, 251, 0.1);
+}
+.form-row {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 1rem;
+}
+.form-actions {
+display: flex;
+gap: 1rem;
+margin-top: 2rem;
+}
+.video-modal .modal-content {
+max-width: 800px;
+}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+}
+.video-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: none;
+}
+/* ===== RESPONSIVE STYLES ===== */
+@media (max-width: 1200px) {
+  .coverflow-stage { height: 480px; }
+  .coverflow-item { width: 300px; height: 460px; }
+  .coverflow-item.right-1 { transform: translateX(260px) scale(0.84) rotateY(-24deg); }
+  .coverflow-item.right-2 { transform: translateX(460px) scale(0.68) rotateY(-38deg); }
+  .coverflow-item.left-1 { transform: translateX(-260px) scale(0.84) rotateY(24deg); }
+  .coverflow-item.left-2 { transform: translateX(-460px) scale(0.68) rotateY(38deg); }
+}
+@media (max-width: 992px) {
+  .hero { grid-template-columns: 1fr; text-align: center; }
+  .hero-image { order: -1; height: 400px; }
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .about-image img { height: 300px; }
+  .contact-container, .subscribe-container { grid-template-columns: 1fr; }
+  .footer-container { grid-template-columns: repeat(2, 1fr); }
+  .services-flip-grid { grid-template-columns: repeat(2, 1fr); }
+  .booking-details { grid-template-columns: 1fr; }
+  .nav-links {
+    position: fixed; top: 70px; left: 0; width: 100%;
+    background: linear-gradient(to bottom, #ffd700, #ffa500);
+    flex-direction: column; padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100%); opacity: 0; visibility: hidden; z-index: 999;
+  }
+  .nav-links.active { transform: translateY(0); opacity: 1; visibility: visible; }
+  .nav-link { padding: 1rem; text-align: center; width: 100%; }
+  .mobile-menu-btn { display: block; }
+  .search-input { width: 150px; }
+  .search-input:focus { width: 200px; }
+}
+@media (max-width: 768px) {
+  .coverflow-stage { height: 420px; }
+  .coverflow-item { width: 280px; height: 420px; }
+  .coverflow-item.right-1 { transform: translateX(220px) scale(0.84) rotateY(-24deg); }
+  .coverflow-item.right-2 { transform: translateX(400px) scale(0.68) rotateY(-38deg); }
+  .coverflow-item.left-1 { transform: translateX(-220px) scale(0.84) rotateY(24deg); }
+  .coverflow-item.left-2 { transform: translateX(-400px) scale(0.68) rotateY(38deg); }
+  .coverflow-title1 { font-size: 1.4rem; }
+  .coverflow-title2 { font-size: 0.95rem; }
+  .coverflow-desc { font-size: 0.75rem; }
+  .nav-actions .btn { display: none; }
+  .hero-title { font-size: 2.5rem; }
+  .section-title { font-size: 2rem; }
+  .packages-grid { grid-template-columns: 1fr; }
+  .package-title { min-height: auto; }
+  .payment-options { grid-template-columns: 1fr; }
+  .additional-packages.active { grid-template-columns: 1fr; }
+  .service-grid { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .services-flip-grid { grid-template-columns: 1fr; }
+  .flip-card { max-width: 280px; height: 280px; }
+  .booking-header { flex-direction: column; align-items: flex-start; }
+  .booking-status { align-self: flex-start; }
+  .footer-container { grid-template-columns: 1fr; text-align: center; }
+  .payment-info { text-align: left; }
+  .wrapper { justify-content: center; }
+  .about-values { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 576px) {
+  .coverflow-stage { height: 380px; }
+  .coverflow-item { width: 260px; height: 380px; }
+  .coverflow-item.right-1 { transform: translateX(190px) scale(0.84) rotateY(-24deg); }
+  .coverflow-item.right-2 { transform: translateX(350px) scale(0.68) rotateY(-38deg); }
+  .coverflow-item.left-1 { transform: translateX(-190px) scale(0.84) rotateY(24deg); }
+  .coverflow-item.left-2 { transform: translateX(-350px) scale(0.68) rotateY(38deg); }
+  .hero-actions { flex-direction: column; align-items: center; gap: 1rem; }
+  .form-actions { flex-direction: column; }
+  .services-tabs { flex-direction: column; align-items: center; }
+  .service-tab { width: 100%; text-align: center; }
+  .flip-card { max-width: 260px; height: 260px; }
+  .flip-card-title { font-size: 1.2rem; }
+  .payment-option { padding: 1.5rem; }
+  .search-input { width: 120px; font-size: 0.8rem; padding: 0.4rem 0.8rem; }
+  .search-input:focus { width: 150px; }
+  .hero-title { font-size: 2rem; }
+  .about-content h3 { font-size: 1.6rem; }
+  .about-values { grid-template-columns: 1fr 1fr; }
+  .value-badge { font-size: 0.8rem; padding: 0.5rem 0.75rem; }
+}
+@media (max-width: 480px) {
+  .coverflow-stage { height: 340px; }
+  .coverflow-item { width: 240px; height: 340px; }
+  .coverflow-item.right-1 { transform: translateX(160px) scale(0.84) rotateY(-24deg); }
+  .coverflow-item.right-2 { transform: translateX(300px) scale(0.68) rotateY(-38deg); }
+  .coverflow-item.left-1 { transform: translateX(-160px) scale(0.84) rotateY(24deg); }
+  .coverflow-item.left-2 { transform: translateX(-300px) scale(0.68) rotateY(38deg); }
+  .coverflow-title1 { font-size: 1.2rem; }
+  .coverflow-title2 { font-size: 0.85rem; }
+  .coverflow-desc { display: none; }
+}
+</style>
+</head>
+<body>
+<!-- Navigation -->
+<nav>
+<div class="container nav-container">
+<a href="#" class="logo">NADA <span>AFRIKA</span> SAFARIS</a>
+<ul class="nav-links">
+<li><a href="#home" class="nav-link active">Home</a></li>
+<li><a href="#about" class="nav-link">About</a></li>
+<li><a href="#destinations" class="nav-link">Destinations</a></li>
+<li><a href="#packages" class="nav-link">Packages</a></li>
+<li><a href="#services" class="nav-link">Services</a></li>
+<li><a href="#gallery" class="nav-link">Gallery</a></li>
+<li><a href="#bookings" class="nav-link">Bookings</a></li>
+<li><a href="#reviews" class="nav-link">Reviews</a></li>
+</ul>
+<div class="nav-actions">
+<div class="search-container">
+<input type="search" placeholder="Search destinations..." class="search-input" id="searchInput">
+<div class="search-results" id="searchResults"></div>
+</div>
+<button class="btn" id="contactBtn">Contact Us</button>
+<button class="mobile-menu-btn" id="mobileMenuBtn">
+<i class="ri-menu-line"></i>
+</button>
+</div>
+</div>
+</nav>
+
+<!-- Header/Hero Section -->
+<header id="home">
+<div class="container hero">
+<div class="hero-content">
+<span class="hero-subtitle">NADA AFRIKA SAFARIS</span>
+<h1 class="hero-title">Mindful <span>Safari</span> Adventures</h1>
+<p class="hero-tagline">"Journey within as you explore the wonders of Africa"</p>
+<p class="hero-description">
+At Nada Afrika Safaris, we embody mindfulness, harmony, and the union of adventure with the soul.
+Inspired by Nada Yoga — the profound connection between sound and consciousness — we invite you to
+experience Africa in a truly transformative way.
+</p>
+<div class="hero-actions">
+<button class="btn btn-gold" id="planTripBtn">Plan a Safari</button>
+<div class="video-story" id="watchStoryBtn">
+<div class="video-thumb">
+<img src="Background.jpeg" alt="Story Thumbnail">
+<div class="play-btn">
+<i class="ri-play-fill"></i>
+</div>
+</div>
+<span>Watch our story</span>
+</div>
+</div>
+</div>
+<div class="hero-image">
+<img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Safari Adventure" class="hero-img hero-img-1" loading="lazy">
+<img src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="African Landscape" class="hero-img hero-img-2" loading="lazy">
+</div>
+</div>
+</header>
+
+<!-- About Section -->
+<section class="section about" id="about">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">About <span>Nada Afrika</span></h2>
+<p class="section-subtitle">Mindfulness, harmony, and the union of adventure with the soul</p>
+</div>
+<div class="about-grid">
+<div class="about-image">
+<img src="logo.jpeg" alt="African Safari Experience" loading="lazy">
+</div>
+<div class="about-content">
+<h3>Journey Within <span>as You Explore</span> Africa</h3>
+<p>Our name <span class="highlight">"Nada"</span> draws inspiration from the yoga philosophy of <span class="highlight">"Nada yoga"</span> which explores the profound connection between sound and consciousness. We offer a unique way to experience Africa, inviting you to journey within as you explore the wonders of the continent.</p>
+<p><span class="highlight">Our vision</span> is to lead travelers on a transformative odyssey where they find alignment, serenity and oneness in the African landscape. We aspire to awaken a deep sense of connection and consciousness in every traveler, fostering a profound appreciation for the beauty and diversity of Africa.</p>
+<p><span class="highlight">Our mission</span> is to create a sanctuary for travelers; where they can reconnect with nature, culture and their inner selves.</p>
+<div class="about-values">
+<div class="value-badge"><i class="ri-heart-pulse-line"></i> Mindfulness</div>
+<div class="value-badge"><i class="ri-leaf-line"></i> Sustainability</div>
+<div class="value-badge"><i class="ri-hand-heart-line"></i> Unity</div>
+<div class="value-badge"><i class="ri-compass-3-line"></i> Authenticity</div>
+<div class="value-badge"><i class="ri-body-scan-line"></i> Wellbeing</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Destinations Section - COVERFLOW CAROUSEL VERSION -->
+<section class="coverflow-section" id="destinations" data-autoplay="true" data-delay="5000">
+  <div class="coverflow-bg">
+    <img src="https://images.unsplash.com/photo-1758066241651-400fda856086?q=80&w=1600&auto=format&fit=crop" alt="ambience background">
+  </div>
+  <div class="coverflow-container">
+    <div class="coverflow-eyebrow">
+      <span class="eyebrow-line"></span>
+      <h3 class="eyebrow-text">EXPLORE TOP DESTINATIONS</h3>
+      <span class="eyebrow-line"></span>
+    </div>
+    
+    <div class="coverflow-stage">
+      <div class="coverflow-item" data-index="0">
+        <img src="https://images.unsplash.com/photo-1758066241651-400fda856086?q=80&w=1600&auto=format&fit=crop" alt="Mombasa Yacht Party">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Coastal</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">MOMBASA YACHT PARTY</h2>
+            <span class="coverflow-title2">CRUISE THE COAST</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Cruise the coast with music, sea breeze, and golden-hour ocean views.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Mombasa Yacht Party" data-price="11599">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="1">
+        <img src="Karura_Forest.jpg" alt="Karura Forest Adventure">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Adventure</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">KARURA FOREST</h2>
+            <span class="coverflow-title2">ADVENTURE PARK</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">High ropes, zip lines, paintball, and poolside chill under the forest canopy.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Karura Forest Adventure" data-price="3499">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="2">
+        <img src="https://images.unsplash.com/photo-1715761104963-eb7aafde58cd?q=80&w=1600&auto=format&fit=crop" alt="Njine Kabia Wild Swing">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Thrills</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">NJINE KABIA</h2>
+            <span class="coverflow-title2">WILD SWING & BOOTCAMP</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Take on wild swing thrills, outdoor drills, and bootcamp team energy.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Njine Kabia Wild Swing and Bootcamp" data-price="5499">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="3">
+        <img src="https://images.unsplash.com/photo-1745526180300-443ef46e6a73?q=80&w=1600&auto=format&fit=crop" alt="Samburu Buffalo Spring">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Safari</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">SAMBURU</h2>
+            <span class="coverflow-title2">BUFFALO SPRING</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Safari through Samburu landscapes and the wildlife-rich Buffalo Springs reserve.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Samburu Buffalo Spring" data-price="9999">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="4">
+        <img src="https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?q=80&w=1600&auto=format&fit=crop" alt="Nanyuki Jersey Edition">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#RoadTrip</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">NANYUKI</h2>
+            <span class="coverflow-title2">JERSEY EDITION</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Road-trip to Nanyuki with match-day fits and Mount Kenya views.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Nanyuki Jersey Edition" data-price="4599">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="5">
+        <img src="https://images.unsplash.com/photo-1633345778967-3760204a4c57?q=80&w=1600&auto=format&fit=crop" alt="Watamu and Malindi Road Trip">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Coastal</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">WATAMU & MALINDI</h2>
+            <span class="coverflow-title2">ROAD TRIP</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Follow the coast through Watamu beaches, Malindi stops, and Swahili charm.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Watamu and Malindi Road Trip" data-price="21999">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="6">
+        <img src="https://images.unsplash.com/photo-1699859085828-c29cdbee3283?q=80&w=1600&auto=format&fit=crop" alt="Tafaria Castle Royal Edition">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Royal</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">TAFARIA CASTLE</h2>
+            <span class="coverflow-title2">ROYAL EDITION</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Enjoy a regal day out with castle-style views and royal photo moments.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Tafaria Castle Royal Edition" data-price="5999">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="7">
+        <img src="https://images.unsplash.com/photo-1758272134088-d3d58d939d12?q=80&w=1600&auto=format&fit=crop" alt="Gen Z vs Millennial Hangout">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Social</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">GEN Z VS MILLENNIAL</h2>
+            <span class="coverflow-title2">HANGOUT</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">A playful social hangout for games, music, friendly rivalry, and memories.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Gen Z vs Millennial Hangout" data-price="4999">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="8">
+        <img src="https://images.unsplash.com/photo-1702134731681-97d4f829b4a6?q=80&w=1600&auto=format&fit=crop" alt="Namanga Jersey Edition">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#BorderTown</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">NAMANGA</h2>
+            <span class="coverflow-title2">JERSEY EDITION</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Border-town adventure with jersey energy, road-trip stops, and big-sky views.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Namanga Jersey Edition" data-price="3999">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="9">
+        <img src="https://images.unsplash.com/photo-1564353779909-9140fd426002?q=80&w=1600&auto=format&fit=crop" alt="Shooting Range">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Adrenaline</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">SHOOTING RANGE</h2>
+            <span class="coverflow-title2">TARGET PRACTICE</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Guided target-practice experience with safety, focus, and adrenaline.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Shooting Range" data-price="9999">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="10">
+        <img src="https://images.unsplash.com/photo-1733128963676-6780da55a118?q=80&w=1600&auto=format&fit=crop" alt="Kartz Bitz Edition">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Racing</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">KARTZ BITZ</h2>
+            <span class="coverflow-title2">EDITION</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Fast laps, friendly rivalry, and go-kart racing energy for the crew.</p>
+            <a href="#" class="coverflow-cta book-now-btn" data-service="Destination" data-name="Kartz Bitz Edition" data-price="4999">
+              <span>Book Now</span>
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button class="coverflow-nav coverflow-prev" aria-label="Previous">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
+    </button>
+    <button class="coverflow-nav coverflow-next" aria-label="Next">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+    </button>
+    
+    <div class="coverflow-dots"></div>
+  </div>
+</section>
+
+<!-- Customised Packages Section -->
+<section class="section" id="packages">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Featured <span>Trips</span></h2>
+<p class="section-subtitle">Choose your next Nada Afrika experience from our latest destination lineup.</p>
+</div>
+<div class="packages-grid">
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1758066241651-400fda856086?q=80&w=900&auto=format&fit=crop" alt="Mombasa Yacht Party" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Mombasa Yacht Party</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.8</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 11,599</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Mombasa Yacht Party" data-price="11599">Book Now</button>
+</div>
+</div>
+</div>
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1715761104963-eb7aafde58cd?q=80&w=900&auto=format&fit=crop" alt="Njine Kabia Wild Swing and Bootcamp" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Njine Kabia Wild Swing and Bootcamp</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.6</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 5,499</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Njine Kabia Wild Swing and Bootcamp" data-price="5499">Book Now</button>
+</div>
+</div>
+</div>
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1745526180300-443ef46e6a73?q=80&w=900&auto=format&fit=crop" alt="Samburu Buffalo Spring" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Samburu Buffalo Spring</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.9</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 9,999</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Samburu Buffalo Spring" data-price="9999">Book Now</button>
+</div>
+</div>
+</div>
+<div class="package-card card">
+<img src="Karura_Forest.jpg" alt="Karura Forest Adventure" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Karura Forest Adventure</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.8</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 3,499</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Karura Forest Adventure" data-price="3499">Book Now</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Additional Trips (Hidden by default) -->
+<div class="additional-packages" id="additionalPackages">
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?q=80&w=900&auto=format&fit=crop" alt="Nanyuki Jersey Edition" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Nanyuki Jersey Edition</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.7</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 4,599</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Nanyuki Jersey Edition" data-price="4599">Book Now</button>
+</div>
+</div>
+</div>
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1633345778967-3760204a4c57?q=80&w=900&auto=format&fit=crop" alt="Watamu and Malindi Road Trip" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Watamu and Malindi Road Trip</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.9</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 21,999</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Watamu and Malindi Road Trip" data-price="21999">Book Now</button>
+</div>
+</div>
+</div>
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1699859085828-c29cdbee3283?q=80&w=900&auto=format&fit=crop" alt="Tafaria Castle Royal Edition" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Tafaria Castle Royal Edition</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.8</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 5,999</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Tafaria Castle Royal Edition" data-price="5999">Book Now</button>
+</div>
+</div>
+</div>
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1758272134088-d3d58d939d12?q=80&w=900&auto=format&fit=crop" alt="Gen Z vs Millennial Hangout" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Gen Z vs Millennial Hangout</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.7</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 4,999</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Gen Z vs Millennial Hangout" data-price="4999">Book Now</button>
+</div>
+</div>
+</div>
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1702134731681-97d4f829b4a6?q=80&w=900&auto=format&fit=crop" alt="Namanga Jersey Edition" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Namanga Jersey Edition</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.6</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 3,999</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Namanga Jersey Edition" data-price="3999">Book Now</button>
+</div>
+</div>
+</div>
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1564353779909-9140fd426002?q=80&w=900&auto=format&fit=crop" alt="Shooting Range" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Shooting Range</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.8</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 9,999</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Shooting Range" data-price="9999">Book Now</button>
+</div>
+</div>
+</div>
+<div class="package-card card">
+<img src="https://images.unsplash.com/photo-1733128963676-6780da55a118?q=80&w=900&auto=format&fit=crop" alt="Kartz Bitz Edition" class="card-img" loading="lazy">
+<div class="package-info">
+<h3 class="package-title">Kartz Bitz Edition</h3>
+<div class="package-rating"><i class="ri-star-fill"></i> 4.7</div>
+<div class="package-price">
+<div class="price"><span>From</span> Ksh 4,999</div>
+<button class="btn book-now-btn" data-service="Package" data-name="Kartz Bitz Edition" data-price="4999">Book Now</button>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center" style="margin-top: 3rem; text-align: center;">
+<button class="btn btn-outline" id="viewPackagesBtn">View All Trips</button>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section class="section services" id="services">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Our <span>Services</span></h2>
+<p class="section-subtitle">Comprehensive safari solutions tailored to your needs. From game drives to luxury getaways, we've got you covered.</p>
+</div>
+<!-- Services Tabs -->
+<div class="services-tabs">
+<div class="service-tab active" data-service="hotel">Safari Lodges</div>
+<div class="service-tab" data-service="flight">Flight Booking</div>
+<div class="service-tab" data-service="holiday">Holiday Plans</div>
+<div class="service-tab" data-service="picnic">Picnic Planning</div>
+<div class="service-tab" data-service="car">Car Hire Service</div>
+</div>
+<!-- Hotel Booking Content -->
+<div class="service-content active" id="hotelContent">
+<h3>🏨 Safari Lodges – Book from a wide range of luxury lodges and camps across Kenya and beyond. Prices are per night in Ksh.</h3>
+<div class="services-flip-grid">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Luxury_Suite.avif" alt="Luxury Suite" class="flip-card-img">
+<div class="flip-card-title">Luxury Suite</div>
+</div>
+<div class="flip-card-back">
+<h4>Luxury Suite</h4>
+<p>Sarova Stanley Hotel</p>
+<p>Capacity: 2-3 people</p>
+<p>Price: Ksh 25,000/night</p>
+<small>Available: Dec 20, 2024 - Jan 15, 2025</small>
+<button class="btn book-service-btn" data-service="Hotel" data-type="Luxury Suite" data-price="25000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Family_Room.avif" alt="Family Room" class="flip-card-img">
+<div class="flip-card-title">Family Room</div>
+</div>
+<div class="flip-card-back">
+<h4>Family Room</h4>
+<p>Hilton Nairobi</p>
+<p>Capacity: 4-6 people</p>
+<p>Price: Ksh 35,000/night</p>
+<small>Available: Dec 15, 2024 - Feb 28, 2025</small>
+<button class="btn book-service-btn" data-service="Hotel" data-type="Family Room" data-price="35000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Budget_Room.webp" alt="Budget Room" class="flip-card-img">
+<div class="flip-card-title">Budget Room</div>
+</div>
+<div class="flip-card-back">
+<h4>Budget Room</h4>
+<p>Fairview Hotel</p>
+<p>Capacity: 1-2 people</p>
+<p>Price: Ksh 8,500/night</p>
+<small>Available: All year round</small>
+<button class="btn book-service-btn" data-service="Hotel" data-type="Budget Room" data-price="8500" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Executive_Suite.webp" alt="Executive Suite" class="flip-card-img">
+<div class="flip-card-title">Executive Suite</div>
+</div>
+<div class="flip-card-back">
+<h4>Executive Suite</h4>
+<p>Kempinski Villa</p>
+<p>Capacity: 2-4 people</p>
+<p>Price: Ksh 45,000/night</p>
+<small>Available: Jan 10 - Mar 30, 2025</small>
+<button class="btn book-service-btn" data-service="Hotel" data-type="Executive Suite" data-price="45000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Flight Booking Content -->
+<div class="service-content" id="flightContent">
+<h3>✈️ Flight Booking – Book flights in First Class or Business Class.</h3>
+<div class="services-flip-grid">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="First_Class.jpg" alt="First Class" class="flip-card-img">
+<div class="flip-card-title">First Class</div>
+</div>
+<div class="flip-card-back">
+<h4>First Class</h4>
+<p>Premium Travel Experience</p>
+<p>Lounge access</p>
+<p>Gourmet meals</p>
+<p>From Ksh 45,000</p>
+<p>Priority Boarding</p>
+<button class="btn book-service-btn" data-service="flight" data-type="First Class" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Second_Class.webp" alt="Second Class" class="flip-card-img">
+<div class="flip-card-title">Second Class</div>
+</div>
+<div class="flip-card-back">
+<h4>Second Class</h4>
+<p>Comfortable Travel</p>
+<p>Complimentary meals</p>
+<p>Standard baggage (23kg)</p>
+<p>From Ksh 18,000</p>
+<p>Standard Amenities</p>
+<button class="btn book-service-btn" data-service="flight" data-type="Second Class" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="International_Flights.jpg" alt="International" class="flip-card-img">
+<div class="flip-card-title">International</div>
+</div>
+<div class="flip-card-back">
+<h4>International</h4>
+<p>Global Destinations</p>
+<p>From Ksh 75,000</p>
+<p>Multiple Airlines</p>
+<button class="btn book-service-btn" data-service="flight" data-type="International" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Domestic_Flights.jpg" alt="Domestic" class="flip-card-img">
+<div class="flip-card-title">Domestic</div>
+</div>
+<div class="flip-card-back">
+<h4>Domestic</h4>
+<p>Local Destinations</p>
+<p>From Ksh 8,000</p>
+<p>Daily Flights</p>
+<button class="btn book-service-btn" data-service="flight" data-type="Domestic" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Holiday Plans Content -->
+<div class="service-content" id="holidayContent">
+<h3>🏖️ Holiday Plans – Tailored for different group sizes and occasions.</h3>
+<div class="services-flip-grid">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Couples_Package.webp" alt="Couples Package" class="flip-card-img">
+<div class="flip-card-title">Couples</div>
+</div>
+<div class="flip-card-back">
+<p>5 Days / 4 Nights</p>
+<p>Romantic dinner setup</p>
+<p>Couples massage</p>
+<p>Champagne on arrival</p>
+<p>Ksh 120,000</p>
+<button class="btn book-service-btn" data-service="holiday" data-type="Couples Package" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Family_Package.jpeg" alt="Family Package" class="flip-card-img">
+<div class="flip-card-title">Family</div>
+</div>
+<div class="flip-card-back">
+<p>7 Days / 6 Nights</p>
+<p>Connecting rooms</p>
+<p>Family activities</p>
+<p>Kids club access</p>
+<p>Ksh 250,000</p>
+<p>All meals included</p>
+<button class="btn book-service-btn" data-service="holiday" data-type="Family Package" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Group_of_6.jpeg" alt="Group of 6" class="flip-card-img">
+<div class="flip-card-title">Group of 6</div>
+</div>
+<div class="flip-card-back">
+<p>5 Days / 4 Nights</p>
+<p>Friends getaway</p>
+<p>Adventure tours</p>
+<p>Group discounts</p>
+<p>Ksh 450,000</p>
+<p>Private transport</p>
+<button class="btn book-service-btn" data-service="holiday" data-type="Group of 6" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Group_of_12.jpeg" alt="Group of 12" class="flip-card-img">
+<div class="flip-card-title">Group of 12</div>
+</div>
+<div class="flip-card-back">
+<p>5 Days / 4 Nights</p>
+<p>Corporate groups</p>
+<p>Team building</p>
+<p>Dedicated guide</p>
+<p>Ksh 850,000</p>
+<p>Conference facilities</p>
+<button class="btn book-service-btn" data-service="holiday" data-type="Group of 12" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Picnic Planning Content -->
+<div class="service-content" id="picnicContent">
+<h3>🧺 Picnic Planning – Professional picnic planning for all occasions. We handle everything from setup to cleanup.</h3>
+<div class="services-flip-grid">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Grou_Events.jpeg" alt="Group Events" class="flip-card-img">
+<div class="flip-card-title">Group Events</div>
+</div>
+<div class="flip-card-back">
+<h4>Group Events</h4>
+<p>Corporate outings</p>
+<p>From Ksh 25,000</p>
+<p>Team building</p>
+<button class="btn book-service-btn" data-service="Picnic" data-type="Group Events" data-price="25000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Special_Dates.jpeg" alt="Special Dates" class="flip-card-img">
+<div class="flip-card-title">Special Dates</div>
+</div>
+<div class="flip-card-back">
+<h4>Special Dates</h4>
+<p>Birthdays, proposals</p>
+<p>From Ksh 15,000</p>
+<p>Romantic setups</p>
+<button class="btn book-service-btn" data-service="Picnic" data-type="Special Dates" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Ceremonies.jpeg" alt="Ceremonies" class="flip-card-img">
+<div class="flip-card-title">Ceremonies</div>
+</div>
+<div class="flip-card-back">
+<h4>Ceremonies</h4>
+<p>Weddings, anniversaries</p>
+<p>From Ksh 15,000</p>
+<p>Romantic setups</p>
+<button class="btn book-service-btn" data-service="Picnic" data-type="Ceremonies" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Anniversaries.jpeg" alt="Anniversaries" class="flip-card-img">
+<div class="flip-card-title">Anniversaries</div>
+</div>
+<div class="flip-card-back">
+<h4>Anniversaries</h4>
+<p>Weddings, anniversaries</p>
+<p>From Ksh 15,000</p>
+<p>Romantic setups</p>
+<button class="btn book-service-btn" data-service="Picnic" data-type="Anniversaries" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Girl's_Night_Dates.jpeg" alt="Girl's Night" class="flip-card-img">
+<div class="flip-card-title">Girl's Night</div>
+</div>
+<div class="flip-card-back">
+<h4>Girl's Night</h4>
+<p>Birthdays, proposals</p>
+<p>From Ksh 15,000</p>
+<p>Romantic setups</p>
+<button class="btn book-service-btn" data-service="Picnic" data-type="Girl's Night" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Proposal_Date.jpeg" alt="Proposal Date" class="flip-card-img">
+<div class="flip-card-title">Proposal Date</div>
+</div>
+<div class="flip-card-back">
+<h4>Proposal Date</h4>
+<p>Birthdays, proposals</p>
+<p>From Ksh 15,000</p>
+<p>Romantic setups</p>
+<button class="btn book-service-btn" data-service="Picnic" data-type="Proposal Date" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Car Hire Content -->
+<div class="service-content" id="carContent">
+<h3>🚗 Car Hire Service – Choose from our wide selection of safari-ready vehicles. Prices are per day in Ksh.</h3>
+<div class="services-flip-grid">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Toyota_Prado.jpeg" alt="Toyota Prado" class="flip-card-img">
+<div class="flip-card-title">Toyota Prado</div>
+</div>
+<div class="flip-card-back">
+<h4>Toyota Prado</h4>
+<p>7 passenger SUV</p>
+<p>Ksh 12,000/day</p>
+<p>Safari ready</p>
+<button class="btn book-service-btn" data-service="Car Hire" data-type="Toyota Prado" data-price="12000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="Mercedes_E_Class.jpeg" alt="Mercedes E-Class" class="flip-card-img">
+<div class="flip-card-title">Mercedes E-Class</div>
+</div>
+<div class="flip-card-back">
+<h4>Mercedes E-Class</h4>
+<p>Luxury sedan</p>
+<p>Ksh 15,000/day</p>
+<p>5 passengers</p>
+<button class="btn book-service-btn" data-service="Car Hire" data-type="Mercedes E-Class" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="ford.webp" alt="Ford" class="flip-card-img">
+<div class="flip-card-title">Ford</div>
+</div>
+<div class="flip-card-back">
+<h4>Ford</h4>
+<p>Luxury sedan</p>
+<p>Ksh 15,000/day</p>
+<p>5 passengers</p>
+<button class="btn book-service-btn" data-service="Car Hire" data-type="Ford" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="honda.webp" alt="Honda" class="flip-card-img">
+<div class="flip-card-title">Honda</div>
+</div>
+<div class="flip-card-back">
+<h4>Honda</h4>
+<p>Luxury sedan</p>
+<p>Ksh 15,000/day</p>
+<p>5 passengers</p>
+<button class="btn book-service-btn" data-service="Car Hire" data-type="Honda" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="bmw.webp" alt="BMW" class="flip-card-img">
+<div class="flip-card-title">BMW</div>
+</div>
+<div class="flip-card-back">
+<h4>BMW</h4>
+<p>Luxury sedan</p>
+<p>Ksh 15,000/day</p>
+<p>5 passengers</p>
+<button class="btn book-service-btn" data-service="Car Hire" data-type="BMW" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="hyundai.webp" alt="Hyundai" class="flip-card-img">
+<div class="flip-card-title">Hyundai</div>
+</div>
+<div class="flip-card-back">
+<h4>Hyundai</h4>
+<p>Luxury sedan</p>
+<p>Ksh 15,000/day</p>
+<p>5 passengers</p>
+<button class="btn book-service-btn" data-service="Car Hire" data-type="Hyundai" data-price="15000" style="margin-top: 0.5rem; padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Gallery Section - COVERFLOW CAROUSEL VERSION -->
+<section class="coverflow-section" id="gallery" data-autoplay="true" data-delay="5000">
+  <div class="coverflow-bg">
+    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ambience background">
+  </div>
+  <div class="coverflow-container">
+    <div class="coverflow-eyebrow">
+      <span class="eyebrow-line"></span>
+      <h3 class="eyebrow-text">GALLERY SECTION</h3>
+      <span class="eyebrow-line"></span>
+    </div>
+    
+    <div class="coverflow-stage">
+      <div class="coverflow-item" data-index="0">
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mountain Adventure">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Peaks</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">MOUNTAIN</h2>
+            <span class="coverflow-title2">ADVENTURE</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Conquer the highest peaks and enjoy breathtaking views from above.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="1">
+        <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beach Paradise">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Paradise</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">BEACH</h2>
+            <span class="coverflow-title2">PARADISE</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Relax on pristine white sands with crystal clear turquoise waters.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="2">
+        <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Forest Exploration">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Wilderness</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">FOREST</h2>
+            <span class="coverflow-title2">EXPLORATION</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Discover ancient forests and hidden waterfalls in untouched wilderness.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="3">
+        <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Desert Sunrise">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Sunrise</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">DESERT</h2>
+            <span class="coverflow-title2">SUNRISE</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Watch the sun paint the desert sands with golden morning light.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="4">
+        <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="City Lights">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Urban</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">CITY</h2>
+            <span class="coverflow-title2">LIGHTS</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Experience vibrant city life and stunning urban landscapes at night.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="5">
+        <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?q=80&w=1192&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cultural Heritage">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Culture</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">CULTURAL</h2>
+            <span class="coverflow-title2">HERITAGE</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Immerse yourself in rich cultural traditions and historical sites.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="6">
+        <img src="karura-canopy-lawn.jpeg" alt="Forest Canopy Lawn">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Karura</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">FOREST CANOPY</h2>
+            <span class="coverflow-title2">LAWN</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Shaded lawns and wooden cabins tucked beneath the tree canopy.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="7">
+        <img src="karura-tree-parking.jpeg" alt="Green Grounds">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Nature</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">GREEN</h2>
+            <span class="coverflow-title2">GROUNDS</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Wide open grounds framed by tall trees, perfect for a group day out.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="8">
+        <img src="karura-ropes-course-wide.jpeg" alt="High Ropes Course">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Adventure</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">HIGH ROPES</h2>
+            <span class="coverflow-title2">COURSE</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Multi-level rope bridges and beam crossings for an adrenaline fix.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="9">
+        <img src="karura-pool.jpeg" alt="Swimming Pool">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Relax</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">SWIMMING</h2>
+            <span class="coverflow-title2">POOL</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Cool off in the pool after a day of high ropes and paintball.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="10">
+        <img src="karura-paintball-sign.jpeg" alt="Paintballing Arena">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Action</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">PAINTBALLING</h2>
+            <span class="coverflow-title2">ARENA</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Suit up and battle it out on the dedicated paintball field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="11">
+        <img src="karura-ropes-climbers.jpeg" alt="Rigging in Action">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Safety</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">RIGGING</h2>
+            <span class="coverflow-title2">IN ACTION</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Safety-rigged climbers making their way across the high poles.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="12">
+        <img src="karura-rope-rungs.jpeg" alt="Aerial Rope Bridge">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Challenge</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">AERIAL ROPE</h2>
+            <span class="coverflow-title2">BRIDGE</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Wooden rungs strung high above the lawn for the ultimate challenge.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="13">
+        <img src="karura-highropes-overview.jpeg" alt="Adventure Park Overview">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Overview</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">ADVENTURE PARK</h2>
+            <span class="coverflow-title2">OVERVIEW</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">The full high ropes and archery setup, ready for a team day.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="14">
+        <img src="karura-park-signage.jpeg" alt="Park Directory">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Guide</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">PARK</h2>
+            <span class="coverflow-title2">DIRECTORY</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Teambuilding, conference, dining, zipline, paintball and more, all in one place.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="15">
+        <img src="karura-lamp-forest.jpeg" alt="Forest Pathways">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Pathways</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">FOREST</h2>
+            <span class="coverflow-title2">PATHWAYS</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">Lamp-lit walkways winding beneath the tree canopy.</p>
+          </div>
+        </div>
+      </div>
+      <div class="coverflow-item" data-index="16">
+        <img src="karura-water-bottle.jpeg" alt="Complimentary Refreshments">
+        <div class="coverflow-vignette"></div>
+        <div class="coverflow-content">
+          <div class="coverflow-tag"><span>#Refresh</span></div>
+          <div class="coverflow-body">
+            <h2 class="coverflow-title1">COMPLIMENTARY</h2>
+            <span class="coverflow-title2">REFRESHMENTS</span>
+            <div class="coverflow-divider"></div>
+            <p class="coverflow-desc">A cold bottle of water waiting for you after the adventure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button class="coverflow-nav coverflow-prev" aria-label="Previous">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
+    </button>
+    <button class="coverflow-nav coverflow-next" aria-label="Next">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+    </button>
+    
+    <div class="coverflow-dots"></div>
+  </div>
+</section>
+
+<!-- Bookings Section -->
+<section class="section bookings" id="bookings">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">My <span>Bookings</span> & Payment History</h2>
+<p class="section-subtitle">Track all your safari bookings and payment status in one place</p>
+</div>
+<div class="bookings-container" id="bookingsList">
+<!-- Bookings will be loaded here by JavaScript -->
+</div>
+</div>
+</section>
+
+<!-- FAQ Section -->
+<section class="section faq" id="faq">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+<p class="section-subtitle">Find answers to common questions about our safari services</p>
+</div>
+<div class="faq-container">
+<div class="faq-item">
+<h3 class="faq-question">How do I know if my payment was successful?</h3>
+<p class="faq-answer">After payment, you'll receive a confirmation with a booking ID. You can also check your booking status in the "My Bookings" section.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What payment methods do you accept?</h3>
+<p class="faq-answer">We accept M-Pesa only. All transactions are secure and processed through verified channels.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Can I cancel or modify my booking?</h3>
+<p class="faq-answer">Yes, you can cancel or modify your booking up to 48hours after payment. Please contact us for assistance with changes.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Do you provide travel insurance?</h3>
+<p class="faq-answer">We recommend purchasing travel insurance for all trips. We can help you arrange suitable coverage through our partners.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What should I bring on my safari?</h3>
+<p class="faq-answer">Bring valid ID, appropriate clothing for the destination, medications, and any required documents. We'll provide a detailed packing list upon booking.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Are your tours guided?</h3>
+<p class="faq-answer">Most of our tours include professional guides. Private tours can be arranged with or without guides based on your preference.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Reviews Section -->
+<section class="section reviews" id="reviews">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Customer <span>Reviews</span></h2>
+<p class="section-subtitle">See what our customers say about their experiences with Nada Afrika Safaris</p>
+</div>
+<div class="reviews-grid">
+<div class="review-card">
+<div class="review-header">
+<img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Ian Jogu" class="review-avatar">
+<div class="review-info">
+<h4>Ian Njogu</h4>
+<div class="review-rating">
+<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+</div>
+</div>
+</div>
+<p class="review-text">"The Samburu Buffalo Spring trip was absolutely amazing! Everything was perfectly organized, and the guides were knowledgeable and friendly. I'll definitely book with Nada Afrika Safaris again!"</p>
+</div>
+<div class="review-card">
+<div class="review-header">
+<img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Mwanzi John" class="review-avatar">
+<div class="review-info">
+<h4>Mwanzi John</h4>
+<div class="review-rating">
+<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-fill"></i>
+</div>
+</div>
+</div>
+<p class="review-text">"Our Watamu and Malindi Road Trip was unforgettable. The stops were excellent, and the activities were well-planned. The kids loved every moment. Highly recommended!"</p>
+</div>
+<div class="review-card">
+<div class="review-header">
+<img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Kevin Mutuma" class="review-avatar">
+<div class="review-info">
+<h4>Kevin Mutuma</h4>
+<div class="review-rating">
+<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+</div>
+</div>
+</div>
+<p class="review-text">"I've traveled with many agencies, but Nada Afrika Safaris stands out. Their attention to detail and customer service is exceptional. The Mombasa Yacht Party was a dream come true!"</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section class="section contact" id="contact">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Contact <span>Us</span></h2>
+<p class="section-subtitle">Get in touch with us for any inquiries or to book your next safari adventure</p>
+</div>
+<div class="contact-container">
+<div class="contact-info">
+<div class="contact-item">
+<div class="contact-icon"><i class="ri-phone-line"></i></div>
+<div class="contact-details">
+<h4>Phone / WhatsApp</h4>
+<p><a href="https://wa.me/message/3RJXK3KXB3PIN1" target="_blank" rel="noopener noreferrer">0700442881</a></p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon"><i class="ri-mail-line"></i></div>
+<div class="contact-details">
+<h4>Email</h4>
+<p>nadaafrikasafaris01@gmail.com</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon"><i class="ri-map-pin-line"></i></div>
+<div class="contact-details">
+<h4>Address</h4>
+<p>Eldoret, Kenya</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon"><i class="ri-time-line"></i></div>
+<div class="contact-details">
+<h4>Business Hours</h4>
+<p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+<p>Saturday: 10:00 AM - 4:00 PM</p>
+</div>
+</div>
+</div>
+<div class="contact-form">
+<form id="contactForm">
+<div class="form-group">
+<label class="form-label">Full Name</label>
+<input type="text" id="contactName" class="form-control" placeholder="Your Name" required>
+</div>
+<div class="form-group">
+<label class="form-label">Email Address</label>
+<input type="email" id="contactEmail" class="form-control" placeholder="Your Email" required>
+</div>
+<div class="form-group">
+<label class="form-label">Subject</label>
+<input type="text" id="contactSubject" class="form-control" placeholder="Subject" required>
+</div>
+<div class="form-group">
+<label class="form-label">Message</label>
+<textarea id="contactMessage" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+</div>
+<div class="form-actions">
+<button type="submit" class="btn btn-gold">Send Message</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Subscribe Section -->
+<section class="section">
+<div class="container subscribe-container">
+<div class="section-header">
+<h2 class="section-title">Subscribe to Get <span>Special Offers</span></h2>
+<p class="section-subtitle">Explore your suitable and dream places around Africa. Here you can find your right destination.</p>
+</div>
+<div class="subscribe-form">
+<input type="email" placeholder="Your email here" class="form-control">
+<button class="btn btn-gold">Subscribe</button>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+<div class="container footer-container">
+<div class="footer-col">
+<h3>NADA <span>AFRIKA</span> SAFARIS</h3>
+<p>Explore your suitable and dream places around Africa. Here you can find your right destination. Journey within as you explore the wonders of the continent.</p>
+<div class="social-links">
+<ul class="wrapper">
+<li class="icon facebook">
+<span class="tooltip">Facebook</span>
+<span><a href="https://www.facebook.com/share/19NdSZtApR/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></span>
+</li>
+<li class="icon twitter">
+<span class="tooltip">Twitter</span>
+<span><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></span>
+</li>
+<li class="icon instagram">
+<span class="tooltip">Instagram</span>
+<span><a href="https://www.instagram.com/nada_afrika_safaris?utm_source=qr&igsh=cWVsdWRxbTU4cTl2" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></span>
+</li>
+<li class="icon tiktok">
+<span class="tooltip">TikTok</span>
+<span><a href="https://www.tiktok.com/@_nada_afrika_safaris?_r=1&_t=ZS-98PJXaP7KwX" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a></span>
+</li>
+<li class="icon linkedin">
+<span class="tooltip">LinkedIn</span>
+<span><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></span>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer-col">
+<h4>Support</h4>
+<p><a href="#faq">FAQs</a></p>
+<p><a href="#">Terms & Conditions</a></p>
+<p><a href="#">Privacy Policy</a></p>
+<p><a href="#contact">Contact Us</a></p>
+</div>
+<div class="footer-col">
+<h4>Address</h4>
+<p>Eldoret, Kenya</p>
+<p>nadaafrikasafaris01@gmail.com</p>
+<p><a href="https://wa.me/message/3RJXK3KXB3PIN1" target="_blank" rel="noopener noreferrer">0700442881</a></p>
+</div>
+<div class="footer-col">
+<h4>Newsletter</h4>
+<p>Subscribe to our newsletter for the latest updates and offers.</p>
+<div class="subscribe-form" style="margin-top: 1rem;">
+<input type="email" placeholder="Your email" class="form-control">
+<button class="btn btn-gold">Subscribe</button>
+</div>
+<div class="payment-info">
+<h5>💳 Payment Information</h5>
+<p><i class="ri-bank-card-line"></i> <strong>Till Number:</strong> 1576229</p>
+<p><i class="ri-phone-line"></i> <strong>Phone Number:</strong> <a href="https://wa.me/message/3RJXK3KXB3PIN1" target="_blank" rel="noopener noreferrer">0700442881</a></p>
+</div>
+</div>
+</div>
+<div class="container footer-bottom">
+<p>Copyright © 2025 Nada Afrika Safaris. All rights reserved.</p>
+</div>
+</footer>
+
+<!-- Video Modal -->
+<div class="video-modal" id="videoModal">
+<div class="video-modal-content">
+<button class="video-modal-close" id="videoModalClose">&times;</button>
+<video id="storyVideo" controls>
+<source src="Tembea_254.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+</div>
+
+<script>
+// ==================== SEARCH FUNCTIONALITY ====================
+const searchableItems = [
+{ name: "Mombasa Yacht Party", type: "Destination", price: "11,599", category: "destinations" },
+{ name: "Njine Kabia Wild Swing and Bootcamp", type: "Destination", price: "5,499", category: "destinations" },
+{ name: "Samburu Buffalo Spring", type: "Destination", price: "9,999", category: "destinations" },
+{ name: "Nanyuki Jersey Edition", type: "Destination", price: "4,599", category: "destinations" },
+{ name: "Watamu and Malindi Road Trip", type: "Destination", price: "21,999", category: "destinations" },
+{ name: "Tafaria Castle Royal Edition", type: "Destination", price: "5,999", category: "destinations" },
+{ name: "Gen Z vs Millennial Hangout", type: "Destination", price: "4,999", category: "destinations" },
+{ name: "Namanga Jersey Edition", type: "Destination", price: "3,999", category: "destinations" },
+{ name: "Shooting Range", type: "Destination", price: "9,999", category: "destinations" },
+{ name: "Kartz Bitz Edition", type: "Destination", price: "4,999", category: "destinations" },
+{ name: "Safari Lodges", type: "Service", price: "From 8,500", category: "services" },
+{ name: "Flight Booking", type: "Service", price: "From 8,000", category: "services" },
+{ name: "Holiday Plans", type: "Service", price: "From 120,000", category: "services" },
+{ name: "Picnic Planning", type: "Service", price: "From 15,000", category: "services" },
+{ name: "Car Hire Service", type: "Service", price: "From 12,000", category: "services" }
+];
+
+// ==================== MOBILE MENU FUNCTIONALITY ====================
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const navLinks = document.querySelector('.nav-links');
+mobileMenuBtn.addEventListener('click', function() {
+navLinks.classList.toggle('active');
+const icon = this.querySelector('i');
+if (navLinks.classList.contains('active')) {
+icon.className = 'ri-close-line';
+} else {
+icon.className = 'ri-menu-line';
+}
+});
+document.querySelectorAll('.nav-link').forEach(link => {
+link.addEventListener('click', function() {
+navLinks.classList.remove('active');
+mobileMenuBtn.querySelector('i').className = 'ri-menu-line';
+});
+});
+
+// ==================== SEARCH FUNCTIONALITY ====================
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
+searchInput.addEventListener('input', function() {
+const searchTerm = this.value.toLowerCase().trim();
+if (searchTerm.length === 0) {
+searchResults.classList.remove('active');
+return;
+}
+const filteredItems = searchableItems.filter(item =>
+item.name.toLowerCase().includes(searchTerm) ||
+item.type.toLowerCase().includes(searchTerm) ||
+item.category.toLowerCase().includes(searchTerm)
+);
+displaySearchResults(filteredItems);
+});
+function displaySearchResults(items) {
+searchResults.innerHTML = '';
+if (items.length === 0) {
+searchResults.innerHTML = '<div class="search-result-item">No results found</div>';
+searchResults.classList.add('active');
+return;
+}
+items.forEach(item => {
+const resultItem = document.createElement('div');
+resultItem.className = 'search-result-item';
+resultItem.innerHTML = `<strong>${item.name}</strong><span class="type">${item.type}</span><div class="price">Ksh ${item.price}</div>`;
+resultItem.addEventListener('click', function() {
+scrollToSection(item.category);
+searchInput.value = '';
+searchResults.classList.remove('active');
+});
+searchResults.appendChild(resultItem);
+});
+searchResults.classList.add('active');
+}
+function scrollToSection(category) {
+let sectionId;
+switch (category) {
+case 'destinations': sectionId = 'destinations'; break;
+case 'packages': sectionId = 'packages'; break;
+case 'services': sectionId = 'services'; break;
+default: return;
+}
+const section = document.getElementById(sectionId);
+if (section) {
+window.scrollTo({ top: section.offsetTop - 80, behavior: 'smooth' });
+}
+}
+document.addEventListener('click', function(e) {
+if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+searchResults.classList.remove('active');
+}
+});
+
+// ==================== COVERFLOW CAROUSEL FUNCTIONALITY ====================
+class CoverFlowCarousel {
+  constructor(container) {
+    this.container = container;
+    this.items = Array.from(container.querySelectorAll('.coverflow-item'));
+    this.total = this.items.length;
+    this.currentIndex = 0;
+    this.autoplay = container.dataset.autoplay === 'true';
+    this.autoplayDelay = parseInt(container.dataset.delay) || 5000;
+    this.interval = null;
+    this.isHovered = false;
+    this.touchStartX = 0;
+
+    this.prevBtn = container.querySelector('.coverflow-prev');
+    this.nextBtn = container.querySelector('.coverflow-next');
+    this.dotsContainer = container.querySelector('.coverflow-dots');
+    this.bgImage = container.querySelector('.coverflow-bg img');
+
+    this.init();
+  }
+
+  init() {
+    this.createDots();
+    this.updateCarousel();
+    this.addEventListeners();
+    if (this.autoplay) this.startAutoplay();
+  }
+
+  createDots() {
+    this.dotsContainer.innerHTML = '';
+    for (let i = 0; i < this.total; i++) {
+      const dot = document.createElement('button');
+      dot.className = 'coverflow-dot';
+      dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
+      dot.addEventListener('click', () => this.goToSlide(i));
+      this.dotsContainer.appendChild(dot);
+    }
+    this.dots = Array.from(this.dotsContainer.querySelectorAll('.coverflow-dot'));
+  }
+
+  updateCarousel() {
+    this.items.forEach((item, idx) => {
+      item.className = 'coverflow-item';
+      const offset = (idx - this.currentIndex + this.total) % this.total;
+
+      if (offset === 0) {
+        item.classList.add('center', 'active');
+      } else if (offset === 1) {
+        item.classList.add('right-1');
+      } else if (offset === 2) {
+        item.classList.add('right-2');
+      } else if (offset === this.total - 1) {
+        item.classList.add('left-1');
+      } else if (offset === this.total - 2) {
+        item.classList.add('left-2');
+      } else {
+        item.classList.add('hidden');
+      }
+    });
+
+    this.dots.forEach((dot, idx) => {
+      dot.classList.toggle('active', idx === this.currentIndex);
+    });
+
+    if (this.bgImage) {
+      this.bgImage.src = this.items[this.currentIndex].querySelector('img').src;
+    }
+  }
+
+  nextSlide() {
+    this.currentIndex = (this.currentIndex + 1) % this.total;
+    this.updateCarousel();
+  }
+
+  prevSlide() {
+    this.currentIndex = (this.currentIndex - 1 + this.total) % this.total;
+    this.updateCarousel();
+  }
+
+  goToSlide(idx) {
+    this.currentIndex = idx % this.total;
+    this.updateCarousel();
+  }
+
+  startAutoplay() {
+    if (this.interval) clearInterval(this.interval);
+    this.interval = setInterval(() => {
+      if (!this.isHovered && this.total > 1) {
+        this.nextSlide();
+      }
+    }, this.autoplayDelay);
+  }
+
+  stopAutoplay() {
+    if (this.interval) {
+      clearInterval(this.interval);
+      this.interval = null;
+    }
+  }
+
+  addEventListeners() {
+    this.nextBtn.addEventListener('click', () => {
+      this.nextSlide();
+      if (this.autoplay) this.startAutoplay();
+    });
+
+    this.prevBtn.addEventListener('click', () => {
+      this.prevSlide();
+      if (this.autoplay) this.startAutoplay();
+    });
+
+    this.container.addEventListener('mouseenter', () => {
+      this.isHovered = true;
+    });
+
+    this.container.addEventListener('mouseleave', () => {
+      this.isHovered = false;
+      if (this.autoplay) this.startAutoplay();
+    });
+
+    this.container.addEventListener('touchstart', (e) => {
+      this.touchStartX = e.touches[0].clientX;
+    }, { passive: true });
+
+    this.container.addEventListener('touchend', (e) => {
+      const diff = e.changedTouches[0].clientX - this.touchStartX;
+      if (Math.abs(diff) > 45) {
+        if (diff < 0) {
+          this.nextSlide();
+        } else {
+          this.prevSlide();
+        }
+        if (this.autoplay) this.startAutoplay();
+      }
+    }, { passive: true });
+
+    this.items.forEach((item, idx) => {
+      item.addEventListener('click', () => {
+        if (!item.classList.contains('center')) {
+          this.goToSlide(idx);
+          if (this.autoplay) this.startAutoplay();
+        }
+      });
+    });
+  }
+}
+
+// ==================== WHATSAPP BOOKING SYSTEM ====================
+const WHATSAPP_URL = 'https://wa.me/254700442881';
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize CoverFlow Carousels
+  document.querySelectorAll('.coverflow-section').forEach(el => {
+    new CoverFlowCarousel(el);
+  });
+
+  // Watch Story Video Button
+  const watchStoryBtn = document.getElementById('watchStoryBtn');
+  const videoModal = document.getElementById('videoModal');
+  const videoModalClose = document.getElementById('videoModalClose');
+  const storyVideo = document.getElementById('storyVideo');
+  
+  watchStoryBtn.addEventListener('click', function() {
+    videoModal.classList.add('active');
+    storyVideo.play();
+  });
+  videoModalClose.addEventListener('click', function() {
+    videoModal.classList.remove('active');
+    storyVideo.pause();
+    storyVideo.currentTime = 0;
+  });
+  videoModal.addEventListener('click', function(e) {
+    if (e.target === videoModal) {
+      videoModal.classList.remove('active');
+      storyVideo.pause();
+      storyVideo.currentTime = 0;
+    }
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && videoModal.classList.contains('active')) {
+      videoModal.classList.remove('active');
+      storyVideo.pause();
+      storyVideo.currentTime = 0;
+    }
+  });
+
+  // Book Now buttons - open WhatsApp with booking details
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('.book-now-btn') || e.target.closest('.book-service-btn')) {
+      e.preventDefault();
+      const button = e.target.closest('.book-now-btn') || e.target.closest('.book-service-btn');
+      openWhatsAppBooking(button);
+    }
+  });
+
+  // View All Trips button
+  document.getElementById('viewPackagesBtn').addEventListener('click', function() {
+    const additionalPackages = document.getElementById('additionalPackages');
+    if (additionalPackages.classList.contains('active')) {
+      additionalPackages.classList.remove('active');
+      this.textContent = 'View All Trips';
+    } else {
+      additionalPackages.classList.add('active');
+      this.textContent = 'Show Less Trips';
+    }
+  });
+
+  // Services tabs
+  document.querySelectorAll('.service-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const service = tab.dataset.service;
+      document.querySelectorAll('.service-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      document.querySelectorAll('.service-content').forEach(content => {
+        content.classList.remove('active');
+      });
+      document.getElementById(`${service}Content`).classList.add('active');
+    });
+  });
+
+  // Contact form
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = document.getElementById('contactName').value;
+    const email = document.getElementById('contactEmail').value;
+    const subject = document.getElementById('contactSubject').value;
+    const message = document.getElementById('contactMessage').value;
+    const whatsappMessage = `*Contact Form Submission*\n*Name:* ${name}\n*Email:* ${email}\n*Subject:* ${subject}\n*Message:* ${message}`;
+    const whatsappUrl = `${WHATSAPP_URL}?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappUrl, '_blank');
+    this.reset();
+    alert('Thank you for your message! We will contact you shortly.');
+  });
+
+  // Plan a Trip button
+  document.getElementById('planTripBtn').addEventListener('click', function() {
+    openWhatsAppBooking({
+      dataset: { service: 'Custom Safari', name: 'Custom Safari Package', price: '0' }
+    });
+  });
+
+  // Navigation smooth scroll
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      this.classList.add('active');
+      const targetId = this.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+      if (targetSection) {
+        window.scrollTo({ top: targetSection.offsetTop - 80, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // Contact button scroll
+  document.getElementById('contactBtn').addEventListener('click', function() {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      window.scrollTo({ top: contactSection.offsetTop - 80, behavior: 'smooth' });
+    }
+  });
+});
+
+// ==================== WHATSAPP BOOKING FUNCTION ====================
+function openWhatsAppBooking(button) {
+  const service = button.dataset.service || 'Service';
+  const name = button.dataset.name || 'Booking';
+  const price = button.dataset.price || '0';
+  const bookingMessage = `Hello Nada Afrika Safaris! I would like to book:\n*Service:* ${service}\n*Package:* ${name}\n*Price:* Ksh ${parseInt(price).toLocaleString()}\nPlease provide me with more details and payment options.`;
+  const encodedMessage = encodeURIComponent(bookingMessage);
+  window.open(`${WHATSAPP_URL}?text=${encodedMessage}`, '_blank');
+}
+</script>
+</body>
+</html>

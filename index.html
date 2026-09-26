@@ -543,11 +543,22 @@ align-items: center;
 position: relative;
 }
 .logo {
+display: inline-flex;
+align-items: center;
+gap: 0.7rem;
 font-size: 1.5rem;
 font-weight: 700;
 color: var(--logo-text);
 z-index: 1001;
 letter-spacing: 0.04em;
+}
+.logo img {
+width: 48px;
+height: 48px;
+object-fit: cover;
+border-radius: 50%;
+box-shadow: 0 6px 18px rgba(46, 52, 64, 0.12);
+border: 2px solid rgba(192, 132, 87, 0.26);
 }
 .logo span {
 color: var(--logo-accent);
@@ -1726,7 +1737,10 @@ border: none;
 <!-- Navigation -->
 <nav>
 <div class="container nav-container">
-<a href="#" class="logo">NADA <span>AFRIKA</span> SAFARIS</a>
+<a href="#" class="logo" aria-label="Nada Afrika Safaris home">
+<img src="logo.jpeg" alt="Nada Afrika Safaris logo">
+<span>NADA <span>AFRIKA</span> SAFARIS</span>
+</a>
 <ul class="nav-links">
 <li><a href="#home" class="nav-link active">Home</a></li>
 <li><a href="#about" class="nav-link">About</a></li>
